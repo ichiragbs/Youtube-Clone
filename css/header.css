@@ -16,8 +16,9 @@
     border-style: solid;
     border-width: 0px;    
     border-color: rgb(219, 219, 219);
-    border-bottom-width: 1px;
+    /* border-bottom-width: 1px; */
     z-index: 100;
+    padding: 0 15px 0 15px;
 }
 
 .leftsection {
@@ -27,15 +28,15 @@
 
 .youtubemenu {
     height: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 8px;
     cursor: pointer;
 }
 
 .youtubelogo {
-    height: 30px;
-    margin-left: 10px;
+    height: 20px;
+    padding: 16px;
     cursor: pointer;
+    align-content: center;
 }
 
 .middlesection {
@@ -50,7 +51,8 @@
 .searchbar {
     font-size: 16px;
     flex: 1;
-    width: 0px;
+    max-width: 500px;
+    margin-left: 40px;
     height: 35px;
     border-radius: 25px 1px 1px 25px;
     border-width: 0.2px;
@@ -101,15 +103,15 @@
 
 .rightsection {
     display: flex;
-    width: 250px;
     align-items: center;
     position: relative;
+    
 }
 
 .noti {
     position: absolute;
-    top: 7px;
-    left: 143px;
+    top: 6px;
+    left: 72px;
     background-color: rgb(210, 1, 1);
     color: white;
     padding-left: 3px;
@@ -125,12 +127,7 @@
     width: 35px;
     border: none;
     background-color: transparent;
-    padding: 5px;
     cursor: pointer;
-}
-
-.createshorts {
-    margin-left: 70px;
 }
 .createshorts:hover {
     background-color: rgb(236, 236, 236);
@@ -140,7 +137,8 @@
 }
 
 .notification {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin: 0 15px 0 15px;
 }
 .notification:hover {
     background-color: rgb(236, 236, 236);
@@ -150,15 +148,16 @@
 }
 
 .profile {
-    margin-left: 20px;
-    height: 40px;
-    border-radius: 20px;
-    padding: 3px;
+    height: 34px;
+    width: 60px;
+    background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
 .profilepic {
-    height: 100%;
-    border-radius: 20px;
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+    
 }
